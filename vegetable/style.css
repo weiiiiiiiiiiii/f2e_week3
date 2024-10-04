@@ -1,0 +1,189 @@
+body {
+    background-color: #EDF2C5;
+    overflow: auto;
+}
+.mainall {
+    padding: 10%;
+    box-sizing: border-box;
+}
+.main {
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+}
+.main h1 {
+    color: #778A50;
+    font-weight: 900;
+    font-size: 44px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rightheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30%;
+    min-width: max-content;
+}
+#login ,#join{
+    color: #778A50;
+    border: 1px solid #778A50;
+    border-radius: 3px;
+    padding: 10px;
+}
+#login{
+    margin-left: 20px;
+    margin-right: none;
+}
+.headimg{
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 30px 30px;
+    column-gap: 10px;
+    padding-right: 20px;
+    border-right: 1px solid #778A50;;
+    height: 35px;
+}
+#join{
+    margin-left: 20px;
+
+}
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #778A50;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.about {
+    height: 5vh;
+    width: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F7FBDA;
+    font-weight: bold;
+    min-width: max-content;
+}
+
+#pumpkin {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.vegandcont {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.vegetables, .contact {
+    flex-grow: 1;
+    width: 50%;
+    /* 確保兩個區塊各佔一半 */
+    box-sizing: border-box;
+}
+
+.vegetables {
+    margin-right: 30px;
+}
+
+.vegtext {
+    border-radius: 3px;
+    background-color: #778A50;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    color: #F7FBDA;
+    display: flex;
+    align-items: center;
+}
+.vegtext ,.contactext{
+    height: 50px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 800;
+
+}
+.vegimg {
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    /* 確保每個圖片佔滿所在的欄 */
+    object-fit: contain;
+    /* 保持圖片比例 */
+}
+
+.contact {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.contactext {
+    border-radius: 3px;
+    background-color: #778A50;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    color: #F7FBDA;
+    display: flex;
+    align-items: center;
+}
+.text{
+    background-color: #F7FBDA;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+.text1 ,.text2{
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    color: #7D7D7D;
+    font-weight: 400;
+    flex-grow: 1;
+} 
+.text1{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    line-height: 1.4;
+
+}
+.text2{
+    border-top: 2px solid #7D7D7D;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30%;
+    flex-grow: 1;
+    line-height: 0.8;
+    /* padding-bottom: 10px; */
+}   
+
+.footer {
+    font-family: "Noto Sans", sans-serif;
+    height: 10vh;
+    box-sizing: border-box;
+    background-color: #778A50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F7FBDA;
+}
